@@ -5,5 +5,5 @@ Cliente e Servidor TFTP
 Implementação de um servidor e cliente TFTP com envio de arquivos.
 
 ## Como usar
-- Execute python client.py para iniciar o cliente.
-- Execute python tftp.py para iniciar o servidor.
+- Execute $ python3 client.py (get|put) [-p serv_port] server source_file [dest_file]
+- Execute $ python3 client.py [-p serv_port] server
